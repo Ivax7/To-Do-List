@@ -1,6 +1,6 @@
 // Función para agregar una tarea a la interfaz
 function agregarTareaALaInterfaz(nuevaTarea) {
-    let contenedorTareas = document.querySelector(".container");
+    let contenedorTareas = document.querySelector(".containerNotas");
 
     let nuevaTareaElemento = document.createElement("div");
     nuevaTareaElemento.classList.add("tareas");
